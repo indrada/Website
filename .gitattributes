@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+Project_Downloads/BuildingsNextFinalRevitModel.zip filter=lfs diff=lfs merge=lfs -text
