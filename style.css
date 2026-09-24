@@ -1,0 +1,133 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover:not(:has(img)) {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center_img {
+	border-radius:10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.main_img{
+	border-radius:10px;
+	display: block;
+	float:right;
+	width: 100%;
+}
+
+.main_body{
+	background-color:grey;
+}
+
+.contact_div h1{
+	margin:8px;
+}
+
+.contact_div p{
+	padding-left:10px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.center_div{
+	max-width: fit-content;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	background-color:white;
+	border-radius:15px;
+}
+
+.center_div p{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.center_div h1{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size:80px;
+}
+
+.main_div{
+	max-width: fit-content;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	background-color:grey;
+	border-radius:15px;
+}
+
+
+.home_page_text{
+	margin-right:80px;
+	float:left;
+	width:20vw
+	display:inline-block;
+}
+
+
+.home_page_text_box{
+	background-color:red;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+	border-radius:5px;
+	max-width:100%;
+	align:center;
+	
+}
+
+
+.home_page_text_box h3{
+	padding:5px;
+}
+
+
+.home_page_text_box h2{
+	padding:5px;
+}
+
+.topnav img{
+	height:20px;
+	margin-left:0px
+}
+.image_div{
+	width:36vw;
+	display:inline-block;
+	padding-bottom:30px;
+}
+
+@media screen and (max-width: 1000px) {
+	.image_div{
+		width:60vw;
+	}
+	.home_page_text{
+		width:60vw;
+	}
+}
